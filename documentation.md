@@ -16,13 +16,19 @@ filename: ~/nano/EP2028218A1.xml
 # installation and running
 
 ## create an environement and install the necessary packages
-`virtualenv my_env --distribute
-source my_env/bin/activate
-pip list
-pip install numpy
-pip install sklearn
-pip list
-pip install pandas`
+`virtualenv my_env --distribute`
+
+`source my_env/bin/activate`
+
+`pip list`
+
+`pip install numpy`
+
+`pip install sklearn`
+
+`pip list`
+
+`pip install pandas`
 
 ## run script to generate dataset from xml files
 `python parser.py ~/nano/ ~/DocumentsSimilarity/dataset_1000.csv`
